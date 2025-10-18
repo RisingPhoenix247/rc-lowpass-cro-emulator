@@ -1,0 +1,29 @@
+{
+  "name": "Low Cutoff Filter (159Hz)",
+  "description": "RC Low-Pass Filter with very low cutoff frequency at 159 Hz.",
+  "components": [
+    {
+      "type": "source",
+      "id": "V1",
+      "value": "5",
+      "unit": "V"
+    },
+    {
+      "type": "resistor",
+      "id": "R1",
+      "value": "10000",
+      "unit": "Ω"
+    },
+    {
+      "type": "capacitor",
+      "id": "C1",
+      "value": "100e-9",
+      "unit": "F"
+    }
+  ],
+  "probe_points": {
+    "Input Square Wave": "input",
+    "Smoothed Output": "output",
+    "R1 Voltage Drop": "resistor"
+  }
+}
