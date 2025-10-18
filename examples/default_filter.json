@@ -1,0 +1,29 @@
+{
+  "name": "Standard RC Low-Pass Filter",
+  "description": "RC Low-Pass Filter with cutoff frequency at 1591 Hz. Demonstrates basic filtering of square waves.",
+  "components": [
+    {
+      "type": "source",
+      "id": "V1",
+      "value": "5",
+      "unit": "V"
+    },
+    {
+      "type": "resistor",
+      "id": "R1",
+      "value": "1000",
+      "unit": "Ω"
+    },
+    {
+      "type": "capacitor",
+      "id": "C1",
+      "value": "100e-9",
+      "unit": "F"
+    }
+  ],
+  "probe_points": {
+    "Input Signal": "input",
+    "Filtered Output": "output",
+    "Voltage across R1": "resistor"
+  }
+}
