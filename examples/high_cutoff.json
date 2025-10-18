@@ -1,0 +1,29 @@
+{
+  "name": "High Cutoff Filter (15.9kHz)",
+  "description": "RC Low-Pass Filter with high cutoff frequency at 15915 Hz.",
+  "components": [
+    {
+      "type": "source",
+      "id": "V1",
+      "value": "5",
+      "unit": "V"
+    },
+    {
+      "type": "resistor",
+      "id": "R1",
+      "value": "1000",
+      "unit": "Ω"
+    },
+    {
+      "type": "capacitor",
+      "id": "C1",
+      "value": "10e-9",
+      "unit": "F"
+    }
+  ],
+  "probe_points": {
+    "Input Signal": "input",
+    "Filtered Output": "output",
+    "Resistor Voltage": "resistor"
+  }
+}
