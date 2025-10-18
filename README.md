@@ -168,4 +168,4 @@ If you find this project helpful, please consider giving it a star!
 
 ---
 
-**Made with ❤️ for electronics enthusiasts and students**
+**Made for electronics enthusiasts and students**
