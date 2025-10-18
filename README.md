@@ -17,7 +17,7 @@ A complete cathode ray oscilloscope (CRO) emulator with interactive circuit buil
 
 ## 📸 Screenshots
 
-![Main Window](docs/screenshots/main_window.png)
+![Dummy Example Image](examples/RCLPF.png)
 
 ## 📋 Requirements
 
